@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<grammar version="1.0" xmlns="http://www.w3.org/2001/06/grammar" xml:lang="en-us">
+
+<define><id name="int" val="1"/></define>
+<define><id name="float" val="2"/></define>
+<define><id name="char" val="3"/></define>
+<define><id name="double" val="4"/></define>
+<define><id name="byte" val="5"/></define>
+<define><id name="signed" val="6"/></define>
+<define><id name="unsigned" val="7"/></define>
+<define><id name="bool" val="8"/></define>
+<define><id name="using" val="9"/></define>
+<define><id name="using system" val="10"/></define>
+<define><id name="delegate" val=11"/></define>
+
+<rule id="1" name="int" toplevel="active">
+<l>
+<p>int</p>
+<p>integer</p>
+</l>
+</rule>
+
+<rule id="2" name="float" toplevel="active">
+<l>
+<p>float</p>
+<p>floating</p>
+</l>
+</rule>
+
+<rule id="3" name="char" toplevel="active">
+<l>
+<p>char</p>
+<p>character</p>
+</l>
+</rule>
+
+<rule id="4" name="double" toplevel="active">
+<p>double</p>
+</rule>
+
+<rule id="5" name="byte" toplevel="active">
+<p>byte</p>
+</rule>
+
+<rule id="6" name="signed" toplevel="active">
+<p>signed</p>
+</rule>
+
+<rule id="7" name="unsigned" toplevel="active">
+<p>unsigned</p>
+
+<rule id="8" name="bool" toplevel="active">
+<l>
+<p>bool</p>
+<p>boolean</p>
+</l>
+</rule>
+
+<rule id="9" name="using" toplevel="active">
+<p>using</p>
+</rule>
+
+<rule id="10" name="using system" toplevel="active">
+<p>"using system"</p>
+</rule>
+
+<rule id="11" name="delegate" toplevel="active">
+<p>delegate</p>
+</rule>
+
+</grammar>
+
